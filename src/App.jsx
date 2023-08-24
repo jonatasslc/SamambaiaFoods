@@ -1,11 +1,11 @@
-import './App.css'
-import Footer from './components/Footer';
+import React from 'react';
+import Root from './routes/Root'
 
 function App() {
 
   return (
     <>
-      <Footer/>
+      <Root/>
     </>
   )
 }
