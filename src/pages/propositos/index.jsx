@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './styles.css'
+import Rodapé from '../../components/Footer'
 
 function Propositos(){
 

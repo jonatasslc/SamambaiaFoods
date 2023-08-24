@@ -1,6 +1,7 @@
 import React from 'react';
 import socialIcons from './assets/socialIcons.png';
 import contactIcons from './assets/contactIcons.png';
+import styles from './styles.css';
 
 export default function Footer(){
     return (
