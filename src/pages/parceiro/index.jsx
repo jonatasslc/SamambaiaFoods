@@ -7,10 +7,11 @@ function Parceiro(){
 
     return (
       <>
+        <Footer/>
         <header>
           <div className='divTitle'>
-            <h1 className='titlePage'>Seja um parceiro</h1>
           </div>
+          <h1 className='titlePage'>Seja um parceiro</h1>
         </header>
 
         <p className='text'>Preencha os campos abaixo e se torne um dos nossos parceiros revendedores, com beneficios exclusivos, é simples e rápido e você pode fazer parte ativamente da mudança que tanto desejamos!</p>
