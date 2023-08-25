@@ -1,21 +1,24 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './styles.css'
+import styles from './styles.css';
+import Footer from '../../components/Footer';
 
 function Parceiro(){
 
     return (
       <>
         <header>
-            <h1>Seja um parceiro</h1>
+          <div className='divTitle'>
+            <h1 className='titlePage'>Seja um parceiro</h1>
+          </div>
         </header>
 
-        <p>Preencha os campos abaixo e se torne um dos nossos parceiros revendedores, com beneficios exclusivos, é simples e rápido e você pode fazer parte ativamente da mudança que tanto desejamos!</p>
+        <p className='text'>Preencha os campos abaixo e se torne um dos nossos parceiros revendedores, com beneficios exclusivos, é simples e rápido e você pode fazer parte ativamente da mudança que tanto desejamos!</p>
 
         <form className='formCard'>
-                <div>
+                <div className='cardTop'>
                     <h3>DADOS PESSOA FÍSICA</h3>
-                    <label>Nome</label> <br></br>
+                    <label>NOME</label> <br></br>
                     <input type="text"/> <br></br>
 
                     <label>CPF</label><br></br>
@@ -29,9 +32,7 @@ function Parceiro(){
 
                     <label>CIDADE</label><br></br>
                     <input type="text"/> <br></br>
-                </div>
-                <div>
-                <h3>DADOS PESSOA JURÍDICA</h3>
+                    <h3>DADOS PESSOA JURÍDICA</h3>
                     <label>EMPRESA</label> <br></br>
                     <input type="text"/> <br></br>
 
@@ -46,10 +47,10 @@ function Parceiro(){
 
                     <label>CIDADE SEDE</label><br></br>
                     <input type="text"/> <br></br>
+                    <button className='btn' type="submit">Enviar</button>
                 </div>
-                <button className='btn' type="submit">Enviar</button>
             </form>  
-
+          <Footer/>
       </>
     )
   }

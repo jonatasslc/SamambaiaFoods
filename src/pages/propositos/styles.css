@@ -1,6 +1,30 @@
 #root{
     background-color: #36613B;
     color: white;
-    width: 1440px;
-    height: 2114px;
+    width: 100%;
+    height: 100%;
+}
+
+.titlePage{
+    margin-left: 250px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 60px;
+}
+
+.divTitle{
+    background-color: #1629174f;
+    width: 500px;
+    height: 90px;
+}
+
+.imgHands{
+    /* height: 300px;
+    width: 600px; */
+}
+
+.awards{
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
 }
