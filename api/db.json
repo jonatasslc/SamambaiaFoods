@@ -1,0 +1,30 @@
+{
+    "partners": [
+        {
+            "id": 1,
+            "nome": "José Carvalho",
+            "cpf": "0000000",
+            "telefone": "0000000",
+            "email": "teste@email",
+            "cidade": "Piracicaba",
+            "empresa": "Covabra",
+            "cnpj": "0000000",
+            "telefoneEmpresa": "0000000",
+            "emailEmpresa": "teste@email",
+            "cidadeEmpresa": "Piracicaba"
+          },
+          {
+            "id": 2,
+            "nome": "Maria Carvalha",
+            "cpf": "1111111",
+            "telefone": "1111111",
+            "email": "teste@email",
+            "cidade": "Rio de Janeiro",
+            "empresa": "Atacadão",
+            "cnpj": "1111111",
+            "telefoneEmpresa": "1111111",
+            "emailEmpresa": "teste@email",
+            "cidadeEmpresa": "Rio de Janeiro"
+          }
+    ]
+}

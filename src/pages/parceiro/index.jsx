@@ -1,9 +1,45 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
+import api from '../../services/api';
 import styles from './styles.css';
 import Footer from '../../components/Footer';
 
+const initialValue = {
+  id: '',
+  nome: '',
+  cpf: 0,
+  telefone: 0,
+  email: '',
+  cidade: '',
+  empresa: '',
+  cnpj: 0,
+  telefoneEmpresa: 0,
+  emailEmpresa: '',
+  cidadeEmpresa: '',
+};
+
 function Parceiro(){
+
+  const [datas, setDatas] = useState(initialValue);
+
+  const navigate = useNavigate();
+
+  function onSubmit(evento){
+      evento.preventDefault();
+
+      const url = '/partners';
+
+      api.post(url, datas)
+          .then( () =>{
+              console.log("ok");
+          })
+  }
+
+  function onChange(ev){
+      const {name, data } = ev.target
+
+      setDatas({ ...values, [name]:data})
+  }
 
     return (
       <>
@@ -16,38 +52,38 @@ function Parceiro(){
 
         <p className='text'>Preencha os campos abaixo e se torne um dos nossos parceiros revendedores, com beneficios exclusivos, é simples e rápido e você pode fazer parte ativamente da mudança que tanto desejamos!</p>
 
-        <form className='formCard'>
+        <form onSubmit={onSubmit} className='formCard'>
                 <div className='cardTop'>
                     <h3>DADOS PESSOA FÍSICA</h3>
-                    <label>NOME</label> <br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="nome">NOME</label> <br></br>
+                    <input type="text" id="nome" name="nome" onChange={onChange}/> <br></br>
 
-                    <label>CPF</label><br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="cpf">CPF</label><br></br>
+                    <input type="number" id="cpf" name="cpf" onChange={onChange}/> <br></br>
 
-                    <label>TELEFONE</label><br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="telefone">TELEFONE</label><br></br>
+                    <input type="number" id="telefone" name="telefone" onChange={onChange}/> <br></br>
 
-                    <label>EMAIL</label><br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="email">EMAIL</label><br></br>
+                    <input type="text" id="email" name="email" onChange={onChange}/> <br></br>
 
-                    <label>CIDADE</label><br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="cidade">CIDADE</label><br></br>
+                    <input type="text" id="cidade" name="cidade" onChange={onChange}/> <br></br>
                     <h3>DADOS PESSOA JURÍDICA</h3>
-                    <label>EMPRESA</label> <br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="empresa">EMPRESA</label> <br></br>
+                    <input type="text" id="empresa" name="empresa" onChange={onChange}/> <br></br>
 
-                    <label>CNPJ</label><br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="cnpj">CNPJ</label><br></br>
+                    <input type="number" id="cnpj" name="cnpj" onChange={onChange}/> <br></br>
 
-                    <label>TELEFONE CORPORATIVO</label><br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="telefoneEmpresa">TELEFONE CORPORATIVO</label><br></br>
+                    <input type="number" id="telefoneEmpresa" name="telefoneEmpresa" onChange={onChange}/> <br></br>
 
-                    <label>EMAIL CORPORATIVO</label><br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="emailEmpresa">EMAIL CORPORATIVO</label><br></br>
+                    <input type="text" id="emailEmpresa" name="emailEmpresa" onChange={onChange}/> <br></br>
 
-                    <label>CIDADE SEDE</label><br></br>
-                    <input type="text"/> <br></br>
+                    <label htmlFor="cidadeEmpresa">CIDADE SEDE</label><br></br>
+                    <input type="text" id="cidadeEmpresa" name="cidadeEmpresa" onChange={onChange}/> <br></br>
                     <button className='btn' type="submit">Enviar</button>
                 </div>
             </form>  
