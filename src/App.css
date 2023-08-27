@@ -1,9 +1,14 @@
-#root {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* #root {
   max-width: 1280px;
   background-color: blueviolet;
   margin: 0;
   padding: 0;
-}
+} */
 
 /* .logo {
   height: 6em;
