@@ -1,5 +1,6 @@
 #root{
     background-color: #36613B;
+    font-family: 'Inter', sans-serif;
 }
 
 .formCard{
@@ -18,28 +19,31 @@
 
 .titlePage{
     font-size: 60px;
-    margin-top: -50px;
-    margin-left: 120px;
+    margin-top: -70px;
+    margin-left: 50px;
     text-shadow: -3px 4px #0A330E;
 }
 
 .divTitle{
-    background-color: #1629174f;
-    width: 540px;
+    background-color: #16291792;
+    width: 520px;
     height: 70px;
     margin-top: 50px;
+    margin-left: 36px;
 }
 
 .btn{
+    text-decoration: none;
     margin-top: 20px;
     width: 30%;
-    background-color: #36613B;   
+    background-color: #36613B;  
+    font-family: 'Inter', sans-serif; 
 }
 
 .text{
-    width: 950px;
+    width: 1289px;
     margin: auto;
     padding: 20px;
     padding-top: 70px;
-    font-size: 30px;
+    font-size: 24px;
 }

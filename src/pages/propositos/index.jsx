@@ -9,9 +9,8 @@ function Propositos(){
       <>
         <Footer/>
         <header>
-          <div className='divTitle'>
-            <h1 className='titlePage'>Propósitos</h1>
-          </div>
+          <div className='divTitle'></div>
+          <h1 className='titlePage'>Propósitos</h1>
         </header>
 
         <figure className='figureTop'><img src="https://i0.wp.com/gamacidadao.com.br/wp-content/uploads/2019/01/maos-dadas-com-natureza.jpg?ssl=1" alt="" className='imgHands'/></figure>

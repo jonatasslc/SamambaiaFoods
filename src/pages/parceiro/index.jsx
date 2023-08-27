@@ -20,33 +20,32 @@ const initialValue = {
 
 function Parceiro(){
 
-  const [datas, setDatas] = useState(initialValue);
+  const [values, setValues] = useState(initialValue);
 
   const navigate = useNavigate();
 
   function onSubmit(evento){
       evento.preventDefault();
 
-      const url = '/partners';
+      const url = '/';
 
-      api.post(url, datas)
+      api.post(url, values)
           .then( () =>{
-              console.log("ok");
+            alert("Cadastro efetuado com sucesso, em breve entraremos em contato!");
           })
   }
 
   function onChange(ev){
-      const {name, data } = ev.target
+      const {name, value } = ev.target
 
-      setDatas({ ...values, [name]:data})
+      setValues({ ...values, [name]:value})
   }
 
     return (
       <>
         <Footer/>
         <header>
-          <div className='divTitle'>
-          </div>
+          <div className='divTitle'></div>
           <h1 className='titlePage'>Seja um parceiro</h1>
         </header>
 
@@ -84,7 +83,7 @@ function Parceiro(){
 
                     <label htmlFor="cidadeEmpresa">CIDADE SEDE</label><br></br>
                     <input type="text" id="cidadeEmpresa" name="cidadeEmpresa" onChange={onChange}/> <br></br>
-                    <button className='btn' type="submit">Enviar</button>
+                <button className='btn' type="submit">Enviar</button>
                 </div>
             </form>  
           <Footer/>
