@@ -6,6 +6,7 @@ import coletividade from './assets/coletividade.jpg';
 import premio1 from './assets/premio1.jpg';
 import premio2 from './assets/premio2.jpg';
 import ingredientes from './assets/ingredientes.jpeg';
+import plantando from './assets/plantando.jpeg'
 
 function Propositos(){
 
@@ -17,7 +18,7 @@ function Propositos(){
           <h1 className='titlePagep'>Propósitos</h1>
         </header>
 
-        <figure className='figureTop'><img src={coletividade} alt="" className='imgHands'/></figure>
+        <figure className='plantando'><img src={plantando}></img></figure>
 
         <p className='infoCard'>Missão:
 
@@ -38,7 +39,7 @@ function Propositos(){
 
         <p className='infoCard'>Nosso programa de controle de uso de água já foi reconhecido e premiado em diversas oportunidades, além da nossa tecnologia ser pioneira no âmbito nacional, sendo referência no desenvolvimento de tecnologia sustentável no ramo alimentício. Com fontes renováveis de energia em nossas fábricas, incentivando a produção de pequenos produtores familiares, conseguimos alcançar no último ano (2022) a marca de 70% de produtos orgânicos em nossas principais linhas.</p>
 
-        <figure><img src={ingredientes} alt="" /></figure>
+        <figure className='ingredientes'><img src={ingredientes} alt="" /></figure>
 
         <p className='infoCard'>Alimentos orgânicos, de pequenos produtores e com responsabilidade ambiental são a base da nossa matéria prima. Incentivando a produção local e a agricultura familiar, podemos alcançar nosso principal objetivo de revolucionar a cadeia de consumo e alimentação nacional.</p>
         <Footer/>

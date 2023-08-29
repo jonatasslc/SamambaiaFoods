@@ -18,27 +18,32 @@
     margin-left: 36px;
 }
 
-/* .imgHands{
-    height: 300px;
-    width: 1518px;
-} */
+.ingredientes{
+    margin-left: 3px;
+    padding: 40px;
+}
 
-/* .awards{
+.awards{
     display: flex;
     align-items: center;
-    margin-left: 450px;
-} */
-
-/* .awardsImg{
-    border-radius: 10px;
-    height: 150px;
-    width: 250px;
-} */
-
-/* .figureTop{
-    margin-top: 130px;
-} */
-
-/* .infoCard{
+    margin-left: 170px;
+    gap: 50px;
     padding: 50px;
-} */
+}
+
+.awardsImg{
+    border-radius: 10px;
+}
+
+.plantando{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.infoCard{
+    font-size: 20px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+}

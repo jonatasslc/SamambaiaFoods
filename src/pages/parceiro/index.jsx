@@ -53,7 +53,7 @@ function Parceiro(){
 
         <form onSubmit={onSubmit} className='formCard'>
                 <div className='cardTop'>
-                    <h3>DADOS PESSOA FÍSICA</h3>
+                    <h3>DADOS PESSOA FÍSICA</h3> <br />
                     <label className='labelStyle' htmlFor="nome">NOME</label> <br></br>
                     <input type="text" id="nome" name="nome" onChange={onChange}/> <br></br>
 
@@ -67,8 +67,8 @@ function Parceiro(){
                     <input type="text" id="email" name="email" onChange={onChange}/> <br></br>
 
                     <label className='labelStyle' htmlFor="cidade">CIDADE</label><br></br>
-                    <input type="text" id="cidade" name="cidade" onChange={onChange}/> <br></br>
-                    <h3>DADOS PESSOA JURÍDICA</h3>
+                    <input type="text" id="cidade" name="cidade" onChange={onChange}/> <br></br> <br />
+                    <h3>DADOS PESSOA JURÍDICA</h3> <br />
                     <label className='labelStyle' htmlFor="empresa">EMPRESA</label> <br></br>
                     <input type="text" id="empresa" name="empresa" onChange={onChange}/> <br></br>
 
