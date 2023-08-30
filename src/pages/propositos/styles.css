@@ -19,31 +19,71 @@
 }
 
 .ingredientes{
-    margin-left: 3px;
-    padding: 40px;
+    margin-left: 70px;
+    background-color: #16291792;
+    width: 1400px;
 }
 
 .awards{
     display: flex;
     align-items: center;
-    margin-left: 170px;
-    gap: 50px;
+    margin-left: 150px;
+    gap: 180px;
     padding: 50px;
 }
 
 .awardsImg{
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 .plantando{
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
-.infoCard{
+.infoCard1{
+    margin-top: 60px;
+    padding: 20px;
+    margin-left: 90px;
     font-size: 20px;
-    width: 1000px;
-    align-items: center;
-    justify-content: center;
+    width: 1300px;
+    font-size: 24px;
+}
+
+.infoCard2{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    padding: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+    width: 1300px;
+    font-size: 24px;
+}
+
+.infoCard3{
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 90px;
+    margin-bottom: 90px;
+    font-size: 20px;
+    width: 1300px;
+    font-size: 24px;
+}
+
+.divShadow{
+    background-color: #16291792;
+    width: 1450px;
+    margin-top: 50px;
+    margin-left: 36px;
+}
+
+.shadowAwards{
+    background-color: #16291792;
+    width: 490px;
+}
+
+.shadowIngredientes{
+    background-color: #16291792;
+    width: 1390px;
 }

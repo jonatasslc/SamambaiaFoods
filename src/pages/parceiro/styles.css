@@ -5,21 +5,22 @@
 
 .formCard{
     color: black;
-    margin-left: 180px;
+    margin-left: 280px;
     margin-top: 60px;
     margin-bottom: 200px;
     padding: 20px;
-    height: 500px;
+    height: 700px;
 }
 
 .cardTop{
+    /* margin-top: 20px; */
+    height: 100%;
+    width: 1000px;
+    /* margin-top: 20px; */
     background-color: #D9D9D9;
     text-align: center;
-    padding: 20px;
     border-radius: 10px;
-    padding-top: 25px;
-    height: 590px;
-    width: 1100px;
+    padding: 20px;
 }
 
 .titlePage{
@@ -42,8 +43,10 @@
     margin-top: 20px;
     width: 400px;
     height: 40px;
-    background-color: #36613B;  
+    background-color: #36613B; 
     font-family: 'Inter', sans-serif;
+    border: none;
+    color: #fff;
 }
 
 .text{
@@ -58,4 +61,10 @@
     text-align: left;
     justify-content: left;
     font-weight: bold;
+}
+
+input {
+    width: 400px;
+    border-radius: 5px;
+    border: none;
 }

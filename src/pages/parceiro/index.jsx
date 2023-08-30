@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import api from '../../services/api';
 import styles from './styles.css';
 import Footer from '../../components/Footer';
+import Menu from '../../components/Menu';
 
 const initialValue = {
   id: '',
@@ -43,7 +44,7 @@ function Parceiro(){
 
     return (
       <>
-        <Footer/>
+        <Menu/>
         <header>
           <div className='divTitle'></div>
           <h1 className='titlePage'>Seja um parceiro</h1>
@@ -83,7 +84,7 @@ function Parceiro(){
 
                     <label className='labelStyle' htmlFor="cidadeEmpresa">CIDADE SEDE</label><br></br>
                     <input type="text" id="cidadeEmpresa" name="cidadeEmpresa" onChange={onChange}/> <br></br>
-                <button className='btnForm' type="submit">Enviar</button>
+                <button className='btnForm' type="submit">ENVIAR</button>
                 </div>
             </form>  
           <Footer/>

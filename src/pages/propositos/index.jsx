@@ -7,41 +7,43 @@ import premio1 from './assets/premio1.jpg';
 import premio2 from './assets/premio2.jpg';
 import ingredientes from './assets/ingredientes.jpeg';
 import plantando from './assets/plantando.jpeg'
+import Menu from '../../components/Menu';
 
 function Propositos(){
 
     return (
       <>
-        <Footer/>
+        <Menu/>
         <header>
           <div className='divTitlep'></div>
-          <h1 className='titlePagep'>Propósitos</h1>
+          <h1  className='titlePagep'>Propósitos</h1>
         </header>
 
-        <figure className='plantando'><img src={plantando}></img></figure>
+          <figure className='plantando' className='divShadow'><img src={plantando}></img></figure>
+        
 
-        <p className='infoCard'>Missão:
+        <p className='infoCard1'><h3>• Missão:</h3><br />
 
-        Estamos aqui para tornar as opções à base de plantas cada vez mais acessíveis a todos, em qualquer lugar.
+        Estamos aqui para tornar as opções à base de plantas cada vez mais acessíveis a todos, em qualquer lugar. <br /><br />
 
-        Visão:
+        <h3>• Visão:</h3><br />
 
-        Promover o equilíbrio ambiental, social e econômico da sociedade.
+        Promover o equilíbrio ambiental, social e econômico da sociedade.<br /><br />
 
-        Valores:
+        <h3>• Valores:</h3><br />
 
-        Ética, Inovação e Sustentabilidade.</p>
+        Ética, Inovação e Sustentabilidade.</p><br />
       
       <div className='awards'>
-        <figure><img src={premio1} alt="" className='awardsImg'/></figure>
-        <figure><img src={premio2} alt="" className='awardsImg'/></figure>
+        <figure className='shadowAwards'><img src={premio1} alt="" className='awardsImg'/></figure>
+        <figure className='shadowAwards'><img src={premio2} alt="" className='awardsImg'/></figure>
         </div>
 
-        <p className='infoCard'>Nosso programa de controle de uso de água já foi reconhecido e premiado em diversas oportunidades, além da nossa tecnologia ser pioneira no âmbito nacional, sendo referência no desenvolvimento de tecnologia sustentável no ramo alimentício. Com fontes renováveis de energia em nossas fábricas, incentivando a produção de pequenos produtores familiares, conseguimos alcançar no último ano (2022) a marca de 70% de produtos orgânicos em nossas principais linhas.</p>
+        <p className='infoCard2'>Nosso programa de controle de uso de água já foi reconhecido e premiado em diversas oportunidades, além da nossa tecnologia ser pioneira no âmbito nacional, sendo referência no desenvolvimento de tecnologia sustentável no ramo alimentício. Com fontes renováveis de energia em nossas fábricas, incentivando a produção de pequenos produtores familiares, conseguimos alcançar no último ano (2022) a marca de 70% de produtos orgânicos em nossas principais linhas.</p>
 
-        <figure className='ingredientes'><img src={ingredientes} alt="" /></figure>
+        <figure className='ingredientes'><img src={ingredientes} /></figure>
 
-        <p className='infoCard'>Alimentos orgânicos, de pequenos produtores e com responsabilidade ambiental são a base da nossa matéria prima. Incentivando a produção local e a agricultura familiar, podemos alcançar nosso principal objetivo de revolucionar a cadeia de consumo e alimentação nacional.</p>
+        <p className='infoCard3'>Alimentos orgânicos, de pequenos produtores e com responsabilidade ambiental são a base da nossa matéria prima. Incentivando a produção local e a agricultura familiar, podemos alcançar nosso principal objetivo de revolucionar a cadeia de consumo e alimentação nacional.</p>
         <Footer/>
       </>
     )
