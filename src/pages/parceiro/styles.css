@@ -67,4 +67,6 @@ input {
     width: 400px;
     border-radius: 5px;
     border: none;
+    outline-color: #36613b62;
+    
 }

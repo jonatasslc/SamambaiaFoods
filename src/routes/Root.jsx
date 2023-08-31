@@ -10,6 +10,7 @@ const Root = () => {
     return (
         <Router>
             <Routes>
+                <Route path="" element={ <Construcao /> } />
                 <Route path="/rodape" element={ <Rodape /> } />
                 <Route path="/propositos" element={ <Propositos /> } />
                 <Route path="/parceiro" element={ <Parceiro /> } />
