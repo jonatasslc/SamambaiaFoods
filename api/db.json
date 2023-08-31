@@ -25,32 +25,6 @@
       "telefoneEmpresa": "1111111",
       "emailEmpresa": "teste@email",
       "cidadeEmpresa": "Rio de Janeiro"
-    },
-    {
-      "id": 3,
-      "nome": "sadd",
-      "cpf": "11",
-      "telefone": "25152",
-      "email": "sdvc",
-      "cidade": "dsxcds",
-      "empresa": "sazc",
-      "cnpj": "0515",
-      "telefoneEmpresa": "51515",
-      "emailEmpresa": "ssa",
-      "cidadeEmpresa": "sads"
-    },
-    {
-      "id": 4,
-      "nome": "teste",
-      "cpf": 0,
-      "telefone": 0,
-      "email": "",
-      "cidade": "",
-      "empresa": "",
-      "cnpj": 0,
-      "telefoneEmpresa": 0,
-      "emailEmpresa": "",
-      "cidadeEmpresa": ""
     }
   ]
 }

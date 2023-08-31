@@ -21,8 +21,13 @@ function Propositos(){
 
           <figure className='plantando' className='divShadow'><img src={plantando}></img></figure>
         
+          <ul className='infoCard1'>
+            <li>Missão:</li>
+            <p>Estamos aqui para tornar as opções à base de plantas cada vez mais acessíveis a todos, em qualquer lugar.</p>
+          </ul>
 
-        <p className='infoCard1'><h3>• Missão:</h3><br />
+
+        {/* <p className='infoCard1'><h3>• Missão:</h3><br />
 
         Estamos aqui para tornar as opções à base de plantas cada vez mais acessíveis a todos, em qualquer lugar. <br /><br />
 
@@ -32,7 +37,7 @@ function Propositos(){
 
         <h3>• Valores:</h3><br />
 
-        Ética, Inovação e Sustentabilidade.</p><br />
+        Ética, Inovação e Sustentabilidade.</p><br /> */}
       
       <div className='awards'>
         <figure className='shadowAwards'><img src={premio1} alt="" className='awardsImg'/></figure>
