@@ -5,7 +5,7 @@ import Rodape from '../components/Footer/index';
 import Parceiro from '../pages/parceiro';
 import Construcao from '../pages/construcao';
 import Menu from '../components/Menu';
-import { Home } from '../pages/home';
+import { Home } from '../pages/Home';
 import Footer from '../components/Footer/index';
 
 const Root = () => {

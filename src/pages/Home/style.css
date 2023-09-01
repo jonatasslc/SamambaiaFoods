@@ -1,50 +1,100 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
-.container{
-  height: 100vh;
-
+.container {
+  height: 100%;
+  padding: 0 56px;
 }
 
-.figure-img-home{
+.figure-img-home {
   width: 100%;
   height: 466px;
 
   position: relative;
 
-  padding: 10px 56px;
-
+  padding: 10px 0;
 }
 
-.figure-img-home img{
+.figure-img-home img {
   width: 100%;
   height: 100%;
   box-shadow: 5px 5px 0px #162917;
-
 }
 
-.container-title{
-
-}
-
-.container-title h1{
-  margin-top: 20px;
+.container-title {
   position: absolute;
   top: 0;
-  left: 56px;
-  font-family: 'Inter', sans-serif;
-  color: #07300B;
-  z-index: 1;
-
-  font-size: 10rem;
-  width: 60%;
-  background-color: rgba(255, 255, 255, 0.24);
-
-  font-weight: bolder;
+  right: 56px;
 
 }
 
+
+.container-title h1 {
+  margin-top: 30px;
+  letter-spacing: -10px;
+  color: #07300b;
+  font-family: "Inter", sans-serif;
+  font-size: 10rem;
+  font-weight: 800;
+  width: 75%;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.container-p,
+.cards p,
+.partners,
+.slogan-p {
+  color: #fff;
+  font-family: Lexend, sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: start;
+
+  padding: 56px 0;
+}
+
+.cards p, .partners, .slogan-p {
+  font-size: 23px;
+  padding: 0;
+
+  width: 90%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 350px;
+}
+.card img {
+  width: 380px;
+  height: 297px;
+
+  box-shadow: 5px 5px 0px #162917;
+  margin-bottom: 37px;
+}
+
+.cardHome04 img {
+  width: 100%;
+
+  margin: 120px 0 0 0 ;
+}
+
+.partners, .slogan-p{
+
+  width: 100%;
+  padding: 100px 0 0 0;
+
+}
+
+.slogan-p{
+  text-align: center;
+  padding-bottom: 90px;
+
+}
