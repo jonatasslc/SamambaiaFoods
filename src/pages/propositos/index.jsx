@@ -24,20 +24,13 @@ function Propositos(){
           <ul className='infoCard1'>
             <li>Missão:</li>
             <p>Estamos aqui para tornar as opções à base de plantas cada vez mais acessíveis a todos, em qualquer lugar.</p>
+
+            <li>Visão:</li>
+            <p>Promover o equilíbrio ambiental, social e econômico da sociedade.</p>
+
+            <li>Valores:</li>
+            <p>Ética, Inovação e Sustentabilidade.</p>
           </ul>
-
-
-        {/* <p className='infoCard1'><h3>• Missão:</h3><br />
-
-        Estamos aqui para tornar as opções à base de plantas cada vez mais acessíveis a todos, em qualquer lugar. <br /><br />
-
-        <h3>• Visão:</h3><br />
-
-        Promover o equilíbrio ambiental, social e econômico da sociedade.<br /><br />
-
-        <h3>• Valores:</h3><br />
-
-        Ética, Inovação e Sustentabilidade.</p><br /> */}
       
       <div className='awards'>
         <figure className='shadowAwards'><img src={premio1} alt="" className='awardsImg'/></figure>

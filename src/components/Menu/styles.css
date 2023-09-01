@@ -22,3 +22,21 @@
     color: inherit;
     text-decoration: inherit;
 }
+
+.redirect:hover{
+    height: 20px;
+    color: #315e36;
+    scale: 1.1;
+    transition: .9s;
+    letter-spacing: 0.2px;
+}
+
+.redirect a.hover {
+    background-color: #038052;
+    color: white;
+  }
+
+  .imgLogo:hover{   
+    scale: 1.1;
+    transition: .9s;
+  }
