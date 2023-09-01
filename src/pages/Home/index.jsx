@@ -1,20 +1,15 @@
 import "../Home/style.css";
-import img01 from "./assets/img01.png";
 import img02 from "./assets/kibe.png";
 import img03 from "./assets/acbf.png";
 import img04 from "./assets/ALMONDEGAS.png";
 import img05 from "./assets/imagebannerbottom.png";
+import { Carousel } from "../../components/Carousel";
 
 export const Home = () => {
   return (
     <main className="container">
-      <figure className="figure-img-home">
-        <img src={img01} alt="" />
+      <Carousel/>
 
-        <div className="container-title">
-          <h1>samambaia foods</h1>
-        </div>
-      </figure>
       <p className="container-p">
         Uma empresa de alimentação focada em ingredientes de verdade, veganos e
         acessíveis, utilizando alta tecnologia para o desenvolvimento de
