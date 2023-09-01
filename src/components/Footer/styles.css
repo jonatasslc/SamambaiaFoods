@@ -3,36 +3,52 @@
     height: 150px;
     background-color: #D8E4D9;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     font-family: 'Inter', sans-serif;
     color: black;
+
+    padding: 0 54px;
   }
   
   .contactIcons{
     width: 72px;
     height: 72px;
-    margin: 40px 45px;
+
   }
   
   .socialAddress{
-    width: 150px;
-    height: 40px;
     font-size: 16px;
-    margin-top: 50px;
     text-align: center;
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .socialAddress2{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .center{
-    width: 650px;
-    padding-left: 250px;
+    display: flex;
+    flex-direction: column-reverse;
+
   }
   
   .slogan{
     width: 170px;
     height: 35px;
     font-size: 16px;
-    margin-top: 100px;
-    margin-left: 110px;
     text-align: center;
-    justify-content: center;
+  }
+
+  figure{
+    display: flex;
+    align-items: center;
+    grid-area: 10px;
+
   }
