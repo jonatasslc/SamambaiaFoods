@@ -56,34 +56,34 @@ function Parceiro(){
                 <div className='cardTop'>
                     <h3>DADOS PESSOA FÍSICA</h3> <br />
                     <label className='labelStyle' htmlFor="nome">NOME</label> <br></br>
-                    <input type="text" id="nome" name="nome" onChange={onChange}/> <br></br>
+                    <input required type="text" id="nome" name="nome" onChange={onChange}/> <br></br>
 
                     <label className='labelStyle' htmlFor="cpf">CPF</label><br></br>
-                    <input type="number" id="cpf" name="cpf" onChange={onChange}/> <br></br>
+                    <input required type="number" id="cpf" name="cpf" onChange={onChange} minlength="11"/> <br></br>
 
                     <label className='labelStyle' htmlFor="telefone">TELEFONE</label><br></br>
-                    <input type="number" id="telefone" name="telefone" onChange={onChange}/> <br></br>
+                    <input required type="number" id="telefone" name="telefone" onChange={onChange} minlength="10"/> <br></br>
 
                     <label className='labelStyle' htmlFor="email">EMAIL</label><br></br>
-                    <input type="text" id="email" name="email" onChange={onChange}/> <br></br>
+                    <input required type="text" id="email" name="email" onChange={onChange}/> <br></br>
 
                     <label className='labelStyle' htmlFor="cidade">CIDADE</label><br></br>
-                    <input type="text" id="cidade" name="cidade" onChange={onChange}/> <br></br> <br />
+                    <input required type="text" id="cidade" name="cidade" onChange={onChange}/> <br></br> <br />
                     <h3>DADOS PESSOA JURÍDICA</h3> <br />
                     <label className='labelStyle' htmlFor="empresa">EMPRESA</label> <br></br>
-                    <input type="text" id="empresa" name="empresa" onChange={onChange}/> <br></br>
+                    <input required type="text" id="empresa" name="empresa" onChange={onChange}/> <br></br>
 
                     <label className='labelStyle' htmlFor="cnpj">CNPJ</label><br></br>
-                    <input type="number" id="cnpj" name="cnpj" onChange={onChange}/> <br></br>
+                    <input required type="number" id="cnpj" name="cnpj" onChange={onChange} minlength="14"/> <br></br>
 
                     <label className='labelStyle' htmlFor="telefoneEmpresa">TELEFONE CORPORATIVO</label><br></br>
-                    <input type="number" id="telefoneEmpresa" name="telefoneEmpresa" onChange={onChange}/> <br></br>
+                    <input required type="number" id="telefoneEmpresa" name="telefoneEmpresa" onChange={onChange} minlength="10"/> <br></br>
 
                     <label className='labelStyle' htmlFor="emailEmpresa">EMAIL CORPORATIVO</label><br></br>
-                    <input type="text" id="emailEmpresa" name="emailEmpresa" onChange={onChange}/> <br></br>
+                    <input required type="text" id="emailEmpresa" name="emailEmpresa" onChange={onChange}/> <br></br>
 
                     <label className='labelStyle' htmlFor="cidadeEmpresa">CIDADE SEDE</label><br></br>
-                    <input type="text" id="cidadeEmpresa" name="cidadeEmpresa" onChange={onChange}/> <br></br>
+                    <input required type="text" id="cidadeEmpresa" name="cidadeEmpresa" onChange={onChange}/> <br></br>
                 <button className='btnForm' type="submit">ENVIAR</button>
                 </div>
             </form>  
