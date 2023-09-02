@@ -22,6 +22,7 @@
     margin-left: 70px;
     background-color: #16291792;
     width: 1400px;
+    box-shadow: 5px 5px 0px #162917;
 }
 
 .awards{
@@ -34,6 +35,7 @@
 
 .awardsImg{
     border-radius: 2px;
+    box-shadow: 5px 5px 0px #162917;
 }
 
 .plantando{
@@ -46,9 +48,11 @@
     margin-top: 60px;
     padding: 20px;
     margin-left: 90px;
-    font-size: 20px;
+    margin-bottom: 100px;
     width: 1300px;
-    font-size: 24px;
+    height: 200px;
+    font-size: 22px;
+    line-height: 50px;
 }
 
 .infoCard2{
@@ -56,9 +60,8 @@
     margin-bottom: 70px;
     padding: 20px;
     margin-left: 90px;
-    font-size: 20px;
     width: 1300px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .infoCard3{
@@ -66,9 +69,8 @@
     padding: 10px;
     margin-left: 90px;
     margin-bottom: 90px;
-    font-size: 20px;
     width: 1300px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .divShadow{
@@ -76,6 +78,7 @@
     width: 1450px;
     margin-top: 50px;
     margin-left: 36px;
+    box-shadow: 5px 5px 0px #162917;
 }
 
 .shadowAwards{
@@ -86,4 +89,14 @@
 .shadowIngredientes{
     background-color: #16291792;
     width: 1390px;
+}
+
+.awardsImg:hover{   
+    scale: 1.0;
+    transition: .9s;
+  }
+
+  .shadowAwards:hover{
+    scale: 1.02;
+    transition: .9s;
 }

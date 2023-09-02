@@ -3,8 +3,17 @@
     font-family: 'Inter', sans-serif;
 }
 
-.gif{
+/* .gif{
     margin-left: 440px;
     height: 100px;
     padding: 190px;
+} */
+
+.figure{
+    height: 500px;
+}
+
+.gif{
+    width: 300px;
+    margin-left: 650px;
 }

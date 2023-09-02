@@ -1,16 +1,12 @@
-import styles from './styles.css';
+import './styles.css';
 import React, {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
-import Footer from '../../components/Footer';
-import GifConstrucao from './assets/construcao.gif';
-import Menu from '../../components/Menu';
+import gifconstrucao from './assets/construcao.gif';
 
 function Construcao(){
     return(
     <>
-        <Menu/>
-        <img className='gif' src={GifConstrucao} alt="" />
-        <Footer/>
+       <figure className='figure'><img className='gif' src={gifconstrucao} alt="" /></figure>
     </>
     )
     

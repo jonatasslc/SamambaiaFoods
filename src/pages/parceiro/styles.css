@@ -9,7 +9,7 @@
     margin-top: 60px;
     margin-bottom: 200px;
     padding: 20px;
-    height: 700px;
+    height: 760px;
 }
 
 .cardTop{
@@ -58,8 +58,6 @@
 }
 
 .labelStyle{
-    text-align: left;
-    justify-content: left;
     font-weight: bold;
 }
 
@@ -68,5 +66,5 @@ input {
     border-radius: 5px;
     border: none;
     outline-color: #36613b62;
-    
+    background-color: #ffffffc0;
 }

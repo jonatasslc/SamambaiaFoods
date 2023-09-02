@@ -1,19 +1,16 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './styles.css'
-import Footer from '../../components/Footer';
+import './styles.css'
 import coletividade from './assets/coletividade.jpg';
 import premio1 from './assets/premio1.jpg';
 import premio2 from './assets/premio2.jpg';
 import ingredientes from './assets/ingredientes.jpeg';
 import plantando from './assets/plantando.jpeg'
-import Menu from '../../components/Menu';
 
 function Propositos(){
 
     return (
       <>
-        <Menu/>
         <header>
           <div className='divTitlep'></div>
           <h1  className='titlePagep'>Propósitos</h1>
@@ -24,20 +21,13 @@ function Propositos(){
           <ul className='infoCard1'>
             <li>Missão:</li>
             <p>Estamos aqui para tornar as opções à base de plantas cada vez mais acessíveis a todos, em qualquer lugar.</p>
+
+            <li>Visão:</li>
+            <p>Promover o equilíbrio ambiental, social e econômico da sociedade.</p>
+
+            <li>Valores:</li>
+            <p>Ética, Inovação e Sustentabilidade.</p>
           </ul>
-
-
-        {/* <p className='infoCard1'><h3>• Missão:</h3><br />
-
-        Estamos aqui para tornar as opções à base de plantas cada vez mais acessíveis a todos, em qualquer lugar. <br /><br />
-
-        <h3>• Visão:</h3><br />
-
-        Promover o equilíbrio ambiental, social e econômico da sociedade.<br /><br />
-
-        <h3>• Valores:</h3><br />
-
-        Ética, Inovação e Sustentabilidade.</p><br /> */}
       
       <div className='awards'>
         <figure className='shadowAwards'><img src={premio1} alt="" className='awardsImg'/></figure>
@@ -49,7 +39,6 @@ function Propositos(){
         <figure className='ingredientes'><img src={ingredientes} /></figure>
 
         <p className='infoCard3'>Alimentos orgânicos, de pequenos produtores e com responsabilidade ambiental são a base da nossa matéria prima. Incentivando a produção local e a agricultura familiar, podemos alcançar nosso principal objetivo de revolucionar a cadeia de consumo e alimentação nacional.</p>
-        <Footer/>
       </>
     )
   }

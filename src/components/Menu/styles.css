@@ -1,8 +1,7 @@
 
 .nav{
     width: 100%;
-
-    padding: 0 20px 20px;
+    padding: 10px 20px 0 20px;
     background-color: #D8E4D9;
     display: flex;
     flex-direction: row;
@@ -17,6 +16,7 @@
     list-style: none;
     color: inherit;
     text-decoration: inherit;
+    padding-bottom: 20px;
 }
 
 .paths a {
@@ -26,6 +26,25 @@
     text-decoration: inherit;
 }
 
-figure, img{
-    height: 130px;
+
+.redirect:hover{
+    /* height: 0.2px; */
+    color: #315e36;
+    scale: 1.09;
+    transition: .9s;
+    letter-spacing: 0.2px;
 }
+
+.redirect a.hover {
+    background-color: #038052;
+    color: white;
+  }
+
+  .imgLogo:hover{   
+    scale: 1.1;
+    transition: .9s;
+  }
+
+  .imgLogo{
+    width: 100px;
+  }
