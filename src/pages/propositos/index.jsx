@@ -16,7 +16,7 @@ function Propositos(){
           <h1  className='titlePagep'>Propósitos</h1>
         </header>
 
-          <figure className='plantando' className='divShadow'><img src={plantando}></img></figure>
+          <figure className='plantando divShadow'><img src={plantando}></img></figure>
         
           <ul className='infoCard1'>
             <li>Missão:</li>
