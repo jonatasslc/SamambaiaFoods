@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Propositos from '../pages/propositos/index';
 import Rodape from '../components/Footer/index';
-import Parceiro from '../pages/Parceiro';
+import Parceiro from '../pages/parceiro';
 import Construcao from '../pages/construcao';
 import Menu from '../components/Menu';
 import { Home } from '../pages/Home';
