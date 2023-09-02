@@ -7,11 +7,12 @@ import Construcao from '../pages/construcao';
 import Menu from '../components/Menu';
 import { Home } from '../pages/Home';
 import Footer from '../components/Footer/index';
+import { Products } from "../pages/produtos";
 
 const Root = () => {
     return (
-        <Router>
-            <Menu/>
+      <Router>
+        <Menu />
         <Routes>
           <Route
             path="/"
@@ -30,15 +31,15 @@ const Root = () => {
             element={<Parceiro />}
           />
           <Route
-            path="/construcao"
-            element={<Construcao />}
+            path="/produtos"
+            element={<Products />}
           />
           {/* <Route
             path="/menu"
             element={<Menu />}
           /> */}
-            </Routes>
-            <Footer/>
+        </Routes>
+        <Footer />
       </Router>
     );  
 }

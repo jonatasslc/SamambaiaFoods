@@ -10,7 +10,7 @@ export default function Menu(){
 
         <figure><Link to="/"><img  className='imgLogo' src={logo} alt="Logo da empresa" /></Link></figure>
             <ul className='paths'>
-                <Link to="/construcao" className='redirect'><li>Produtos</li></Link>
+                <Link to="/produtos" className='redirect'><li>Produtos</li></Link>
                 <Link to="/construcao" className='redirect'><li>Receitas</li></Link>
                 <Link to="/construcao" className='redirect'><li>Onde comprar</li></Link>
                 <Link to="/propositos" className='redirect'><li>Propósitos</li></Link>
