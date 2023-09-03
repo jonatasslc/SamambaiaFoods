@@ -36,7 +36,7 @@ export const Carousel =()=> {
         <img src={img01} alt="" />
 
         <div className="container-title">
-          <h1>samambaia foods</h1>
+          <h1 className='container-title-h1'>samambaia foods</h1>
         </div>
       </figure></SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>

@@ -1,0 +1,40 @@
+
+.container-products{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 56px;
+
+  
+
+}
+
+.container-products:nth-child(2n + 2){
+}
+
+.div-cards-products{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+}
+
+.div-cards-products:nth-child(2n + 2){
+  flex-direction: row;
+}
+
+
+.description-p{
+  text-align: start;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+h2{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  width: 50%;
+  height: fit-content;
+}

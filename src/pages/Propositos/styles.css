@@ -1,0 +1,82 @@
+#root {
+  background-color: #36613b;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-propositos {
+  padding: 0 56px;
+}
+
+.titlePagep {
+  font-family: sans-serif;
+  font-size: 60px;
+  text-shadow: -3px 4px #0a330e;
+  font-weight: 800;
+}
+
+.divTitlep {
+  background-color: #16291792;
+  width: fit-content;
+  margin-top: 61px;
+  height: 13vh;
+  padding: 20px 45px 0 20px;
+}
+
+.ingredientes {
+  width: 100%;
+	margin-bottom: 61px;
+	
+}
+
+.ingredientes img {
+	width: 100%;
+	box-shadow: 5px 5px 0px #162917;
+}
+.awards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+	padding-bottom: 61px;
+}
+
+.awardsImg {
+  border-radius: 2px;
+  box-shadow: 5px 5px 0px #162917;
+}
+
+.plantando {
+  width: 100%;
+}
+
+.img-plantando {
+  width: 100%;
+  margin-top: 61px;
+  box-shadow: 5px 5px 0px #16291792;
+}
+
+.infoCard1 {
+  font-size: 22px;
+  line-height: 50px;
+  margin: 30px 43px;
+}
+
+.infoCard2-p {
+  padding: 61px 0;
+  font-size: 22px;
+}
+
+.infoCard3 {
+  padding-bottom: 61px;
+
+  font-size: 22px;
+}
+
+.awardsImg:hover {
+  scale: 1;
+  transition: 0.9s;
+}
