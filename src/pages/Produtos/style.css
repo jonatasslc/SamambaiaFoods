@@ -4,8 +4,9 @@
   display: flex;
   flex-direction: column;
 
-  padding: 0 56px;
+  padding: 0 56px 120px 56px;
 
+  gap: 100px;
   
 
 }
@@ -25,16 +26,30 @@
 
 
 .description-p{
+  font-family: sans-serif;
   text-align: start;
   font-weight: normal;
   font-size: 20px;
 }
 
-h2{
+.div-cards-products h2{
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 50px;
-  text-align: center;
-  width: 50%;
-  height: fit-content;
+  text-align: start;
+  width: fit-content;
+
+}
+
+.title-h3{
+  font-family: sans-serif;
+  text-align: end;
+  font-size: 30px;
+  text-shadow: -3px 4px #0a330e;
+  background-color: #16291792;
+  padding: 8px 0 20px 20px;
+
+  width: 18.5vw;
+  height: 6.5vh;
 }
