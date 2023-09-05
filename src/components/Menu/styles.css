@@ -4,20 +4,23 @@
     padding: 10px 20px 0 20px;
     background-color: #D8E4D9;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items: end;
     font-family: 'Inter', sans-serif;
     color: black;
-}
+  }
 
 .paths{
     display: flex;
+    flex-wrap: wrap;
     gap: 80px;
     list-style: none;
-    color: inherit;
-    text-decoration: inherit;
     padding-bottom: 20px;
-}
+    height: fit-content;
+
+  }
 
 .paths a {
     display: flex;
@@ -33,12 +36,8 @@
     scale: 1.09;
     transition: .9s;
     letter-spacing: 0.2px;
+    cursor: pointer;
 }
-
-.redirect a.hover {
-    background-color: #038052;
-    color: white;
-  }
 
   .imgLogo:hover{   
     scale: 1.1;

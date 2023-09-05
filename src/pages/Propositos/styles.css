@@ -22,8 +22,8 @@
   background-color: #16291792;
   width: fit-content;
   margin-top: 61px;
-  height: 13vh;
-  padding: 20px 45px 0 20px;
+  height: 74px;
+  padding: 20px 45px 0 6px;
 }
 
 .ingredientes {
@@ -38,13 +38,15 @@
 }
 .awards {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-
+  gap: 30px;
 	padding-bottom: 61px;
 }
 
 .awardsImg {
+  width: 48%;
   border-radius: 2px;
   box-shadow: 5px 5px 0px #162917;
 }

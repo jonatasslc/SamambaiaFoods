@@ -1,22 +1,22 @@
 .footer{
     width: 100%;
-    height: 150px;
+    padding: 45px 40px 0 40px;
     background-color: #D8E4D9;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-family: 'Inter', sans-serif;
     color: black;
 
-    padding: 0 54px;
   }
   
-  .contactIcons{
+  .contatoIcons{
     width: 72px;
     height: 72px;
 
   }
   
-  .socialAddress{
+  .mediaSocial{
     font-size: 16px;
     text-align: center;
     padding-left: 20px;
@@ -26,7 +26,7 @@
     align-items: start;
   }
 
-  .socialAddress2{
+  .mediaSocial2{
     padding-right: 20px;
     display: flex;
     flex-direction: column;

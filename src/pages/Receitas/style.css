@@ -1,0 +1,24 @@
+.div-receita{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.ingredientes-receitas{
+  margin: 120px 0;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.imgMid, .imgTop{
+  margin-bottom: 60px;
+}
+
+.titulo-receitas{
+  display: flex;
+  justify-content: center;
+}

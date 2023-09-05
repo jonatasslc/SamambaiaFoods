@@ -1,6 +1,5 @@
-import React from 'react';
 import socialIcons from './assets/socialIcons.png';
-import contactIcons from './assets/contactIcons.png';
+import contatoIcons from './assets/contactIcons.png';
 import './styles.css';
 
 export default function Footer(){
@@ -8,11 +7,11 @@ export default function Footer(){
       <footer className="footer">
         <figure>
           <img
-            className="contactIcons"
+            className="contatoIcons"
             src={socialIcons}
             alt="Ícones redes sociais"
           />
-          <p className="socialAddress">
+          <p className="mediaSocial">
             @samambaia.foods<p>@samambaia.corp</p>
           </p>
         </figure>
@@ -20,13 +19,13 @@ export default function Footer(){
           <p className="slogan">PLANTE SEU FUTURO SAMAMBAIA CORP ®</p>
         </div>
         <figure>
-          <p className="socialAddress2">
+          <p className="mediaSocial2">
             samambaia@corp.com
             <p>(11) 4002-8922</p>
           </p>
           <img
-            className="contactIcons"
-            src={contactIcons}
+            className="contatoIcons"
+            src={contatoIcons}
             alt="Ícones de contato"
           />
         </figure>

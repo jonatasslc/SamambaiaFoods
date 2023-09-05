@@ -5,19 +5,31 @@ import { useNavigate, Link } from 'react-router-dom';
 
 export default function Menu(){
     return (
-        <>
-        <nav className='nav'>
-
-        <figure><Link to="/"><img  className='imgLogo' src={logo} alt="Logo da empresa" /></Link></figure>
-            <ul className='paths'>
-                <Link to="/produtos" className='redirect'><li>Produtos</li></Link>
-                <Link to="/construcao" className='redirect'><li>Receitas</li></Link>
-                <Link to="/construcao" className='redirect'><li>Onde comprar</li></Link>
-                <Link to="/propositos" className='redirect'><li>Propósitos</li></Link>
-                <Link to="/parceiro" className='redirect'><li>Seja um parceiro</li></Link>
-
-            </ul>
+      <>
+        <nav className="nav">
+          <figure>
+            <Link to="/">
+              <img className="imgLogo" src={logo} alt="Logo da empresa" />
+            </Link>
+          </figure>
+          <ul className="paths">
+            <Link to="/produtos">
+              <li className="redirect">Produtos</li>
+            </Link>
+            <Link to="/receitas">
+              <li className="redirect">Receitas</li>
+            </Link>
+            <Link to="/onde-comprar">
+              <li className="redirect">Onde comprar</li>
+            </Link>
+            <Link to="/propositos">
+              <li className="redirect">Propósitos</li>
+            </Link>
+            <Link to="/parceiro">
+              <li className="redirect">Seja um parceiro</li>
+            </Link>
+          </ul>
         </nav>
-        </>
-    )
+      </>
+    );
 }
