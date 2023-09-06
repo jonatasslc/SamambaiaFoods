@@ -65,7 +65,7 @@ npm install
 npm run dev
 ```
 
-<div style=" display:flex; flex-wrap:wrap;">
+<div style=" display:flex; flex-wrap:wrap; justify-content:center; align-item:center;">
 
 <figure>
 
