@@ -2,7 +2,7 @@
 
 <p>Uma empresa de alimentação ficticia focada em ingredientes de verdade, veganos e acessíveis, utilizando alta tecnologia para o desenvolvimento de produtos que vão além de nutrir, contribuir para o desenvolvimento de um futuro sustentável para todos.<p\>
 
-## PROJETO ACADEMICO TII SENAC
+## PROJETO ACADÉMICO TII SENAC
 
 ### PROFESSORES
 
@@ -12,29 +12,28 @@
 
 ### EQUIPE
 
-<a href="https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6" target="blank_">| UESLEI |</a><br>
-<a href="https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6" target="blank_">| JONATAS |</a><br>
-<a href="https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6" target="blank_">| ALEX |</a><br>
+<a href="https://www.linkedin.com/in/ueslei-amaral-dev/" target="blank_">| UESLEI |</a><br>
+<a href="https://github.com/jonatasslc" target="blank_">| JONATAS |</a><br>
+<a href="https://github.com/AlexssanderM" target="blank_">| ALEX |</a><br>
 
 ### TECNOLOGIAS USADAS
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/jonatasslc/SamambaiaFoods)
 ![Axios](https://img.shields.io/badge/-AXIOS-blueviolet)
-![React](https://img.shields.io/badge/-REACT-blue)
-![netlify](https://img.shields.io/badge/-NETLIFY-yellow)
+![React](https://img.shields.io/badge/-REACT-navy)
+![netlify](https://img.shields.io/badge/-NETLIFY-steelblue)
 ![SPA](https://img.shields.io/badge/-SPA-black)
-![VITE](https://img.shields.io/badge/VITE-orange)
-![SWIPER](https://img.shields.io/badge/-SWIPER-brightgreen)
+![VITE](https://img.shields.io/badge/VITE-orangered)
+![SWIPER](https://img.shields.io/badge/-SWIPER-darkgreen)
+![FIGMA](https://img.shields.io/badge/-FIGMA-firebrick)
 
-<img src="" alt="exemplo imagem" alignItem="center">
-
-> Pagina inicial <a href="" target="blank_">Samambaia Foods</a>
+<img src="https://i.ibb.co/GRhQrkQ/Samambaia-Foods.png" alt="exemplo imagem" alignItem="center">
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente do  ` <\Node>`
+- Você instalou a versão mais recente do ` <\Node>`
 
 ## 🚀 Instalando Samambaia Foods
 
@@ -43,7 +42,7 @@ Para instalar a Samambaia Foods, siga estas etapas:
 Windows:
 
 ```
-< git clone https://github.com/jonatasslc/SamambaiaFoods.git >
+git clone https://github.com/jonatasslc/SamambaiaFoods.git
 ```
 
 ## ☕ Usando a Samambaia Foods
@@ -66,26 +65,50 @@ npm install
 npm run dev
 ```
 
-```
-3. A página irá abrir automaticamente no navegador.
-```
+<div style=" display:flex; flex-wrap:wrap;">
 
-```
-```
+<figure>
 
-  <img src="" alt="image-1" border="0" >
+### 1. Página Home
 
-```
-4..
-```
+<img src="https://i.ibb.co/GRhQrkQ/Samambaia-Foods.png" alt="exemplo imagem" alignItem="center">
+</figure>
 
-<img src="" alt="image-1" border="0" width="500" >
+<figure>
 
-```
-5..
-```
+### 2. Página Produtos
 
-<img src="" alt="image-1" border="0" width="500" >
+<img src="https://i.ibb.co/wWLWYZM/page-Produtos.png" alt="page-Produtos" border="0">
+</figure>
 
+
+<figure>
+
+### 3. Página Receitas
+
+<img src="https://i.ibb.co/TL83JKG/receitas.png" alt="receitas" border="0">
+</figure>
+
+<figure>
+
+### 4. Página Onde Comprar
+
+<img src="https://i.ibb.co/6vjGWYZ/onde-comprar.png" alt="onde-comprar" border="0">
+</figure>
+
+<figure>
+
+### 5. Página Propósitos
+
+<img src="https://i.ibb.co/tszM4Vb/propositos.png" alt="propositos" border="0">
+</figure>
+
+<figure>
+
+### 6. Página Seja Um Parceiro
+
+<img src="https://i.ibb.co/h1K2z21/seja-parceiro.png" alt="seja-parceiro" border="0">
+</figure>
+</div>
 
 [⬆ Voltar ao topo](#SAMAMBAIA_FOODS)<br>

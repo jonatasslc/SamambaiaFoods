@@ -39,7 +39,6 @@ export const Carousel =()=> {
           <h1 className='container-title-h1'>samambaia foods</h1>
         </div>
       </figure></SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
       </Swiper>
     </>
   );
