@@ -6,15 +6,15 @@
 
 ### PROFESSORES
 
-<a href="#" target="blank_">| FERNANDO |</a><br>
-<a href="#" target="blank_"> | ELISANGELA |</a><br>
-<a href="#" target="blank_">| FABIO |</a>
+<a href="#" target="_blank">| FERNANDO |</a><br>
+<a href="#" target="_blank"> | ELISANGELA |</a><br>
+<a href="#" target="_blank">| FABIO |</a>
 
 ### EQUIPE
 
-<a href="https://www.linkedin.com/in/ueslei-amaral-dev/" target="blank_">| UESLEI |</a><br>
-<a href="https://github.com/jonatasslc" target="blank_">| JONATAS |</a><br>
-<a href="https://github.com/AlexssanderM" target="blank_">| ALEX |</a><br>
+<a href="https://www.linkedin.com/in/ueslei-amaral-dev/" target="_blank">| UESLEI |</a><br>
+<a href="https://github.com/jonatasslc" target="_blank">| JONATAS |</a><br>
+<a href="https://github.com/AlexssanderM" target="_blank">| ALEX |</a><br>
 
 ### TECNOLOGIAS USADAS
 
