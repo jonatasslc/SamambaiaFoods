@@ -6,9 +6,9 @@
 
 ### PROFESSORES
 
-<a href="https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6" target="blank_">| FERNANDO |</a><br>
-<a href="https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6" target="blank_"> | ELISANGELA |</a><br>
-<a href="https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6" target="blank_">| FABIO |</a>
+<a href="#" target="blank_">| FERNANDO |</a><br>
+<a href="#" target="blank_"> | ELISANGELA |</a><br>
+<a href="#" target="blank_">| FABIO |</a>
 
 ### EQUIPE
 
