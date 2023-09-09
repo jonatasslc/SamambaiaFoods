@@ -7,9 +7,9 @@ import imgKibe from "./assets/samamkibe.png";
 
 export const Products = () => {
   return (
-    <div className="container-products">
+    <div className="container">
       <div className="title-products divTitlep">
-        <h1 className="titlePagep ">Conheça nossos Produtos </h1>
+        <h1 className="titlePagep ">Nossos Produtos </h1>
       </div>
 
       <div className="div-cards-products">

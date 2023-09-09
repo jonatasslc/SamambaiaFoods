@@ -2,11 +2,13 @@ import React from 'react';
 import './styles.css';
 import logo from './assets/logo.png';
 import { useNavigate, Link } from 'react-router-dom';
+import { Sidebar } from '../Sidebar';
 
 export default function Menu(){
     return (
       <>
-        <nav className="nav">
+        <nav className="nav" id="outer-container" >
+
           <figure>
             <Link to="/">
               <img className="imgLogo" src={logo} alt="Logo da empresa" />

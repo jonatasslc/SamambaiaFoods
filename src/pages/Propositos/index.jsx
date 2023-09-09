@@ -9,7 +9,7 @@ import plantando from "./assets/plantando.jpeg";
 
 function Propositos() {
   return (
-    <div className="container-propositos">
+    <div className="container">
       <div className="divTitlep">
         <h1 className="titlePagep">Propósitos</h1>
       </div>

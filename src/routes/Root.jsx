@@ -8,10 +8,16 @@ import { Products } from "../pages/Produtos";
 import { Receitas } from "../pages/Receitas";
 import { OndeComprar } from "../pages/OndeComprar";
 import Construcao from "../pages/404";
+import { Sidebar } from "../components/Sidebar";
 
 const Root = () => {
   return (
-    <Router>
+    <Router id="page-wrap">
+      <Sidebar
+        pageWrapId={"page-wrap"}
+        outerContainerId={"outer-container"}
+      
+      />
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -16,10 +16,11 @@ export default function Footer(){
           </p>
         </figure>
         <div className="center">
-          <p className="slogan">PLANTE SEU FUTURO SAMAMBAIA CORP ®</p>
+          <p className='slogan'>SAMAMBAIA CORP ®</p>
+          <p className="slogan">PLANTE SEU FUTURO</p>
         </div>
         <figure>
-          <p className="mediaSocial2">
+          <p className="mediaSocial">
             samambaia@corp.com
             <p>(11) 4002-8922</p>
           </p>

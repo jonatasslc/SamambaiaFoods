@@ -7,7 +7,7 @@ import parceiro04 from "./assets/parceiro04.png";
 
 export const OndeComprar = () => {
   return (
-    <div className="container-products">
+    <div className="container">
       <div className="title-products divTitlep">
         <h1 className="titlePagep ">Onde Comprar</h1>
       </div>

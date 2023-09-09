@@ -13,7 +13,7 @@
 
 .titlePagep {
   font-family: sans-serif;
-  font-size: 60px;
+  font-size: clamp(1rem, 8vw, 4rem); 
   text-shadow: -3px 4px #0a330e;
   font-weight: 800;
 }

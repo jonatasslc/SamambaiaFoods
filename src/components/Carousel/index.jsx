@@ -1,23 +1,22 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import img01 from "../../pages/Home/assets/img01.png";
 
-
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import './styles.css';
+import "./styles.css";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-export const Carousel =()=> {
+export const Carousel = () => {
   return (
-    <>
+    <div className="carousel">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -32,14 +31,16 @@ export const Carousel =()=> {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><figure className="figure-img-home">
-        <img src={img01} alt="" />
+        <SwiperSlide>
+          <figure className="figure-img-home">
+            <img src={img01} alt="" />
 
-        <div className="container-title">
-          <h1 className='container-title-h1'>samambaia foods</h1>
-        </div>
-      </figure></SwiperSlide>
+            <div className="container-title">
+              <h1 className="container-title-h1">samambaia foods</h1>
+            </div>
+          </figure>
+        </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
-}
+};

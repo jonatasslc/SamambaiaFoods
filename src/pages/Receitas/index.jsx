@@ -5,7 +5,7 @@ import "./style.css";
 
 export const Receitas = () => {
   return (
-    <div className="container-propositos">
+    <div className="container receitas">
       <div className="divTitlep">
         <h1 className="titlePagep">Receitas</h1>
       </div>

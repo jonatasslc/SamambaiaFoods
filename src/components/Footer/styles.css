@@ -1,9 +1,10 @@
 .footer{
     width: 100%;
-    padding: 45px 40px 0 40px;
+    padding: 45px 40px 10px 40px;
     background-color: #D8E4D9;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
     justify-content: space-between;
     font-family: 'Inter', sans-serif;
     color: black;
@@ -19,20 +20,13 @@
   .mediaSocial{
     font-size: 16px;
     text-align: center;
-    padding-left: 20px;
+    padding: 0 20px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-
-  .mediaSocial2{
-    padding-right: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .center{
     display: flex;
     flex-direction: column-reverse;
@@ -40,8 +34,6 @@
   }
   
   .slogan{
-    width: 170px;
-    height: 35px;
     font-size: 16px;
     text-align: center;
   }
@@ -49,6 +41,6 @@
   figure{
     display: flex;
     align-items: center;
-    grid-area: 10px;
 
   }
+
